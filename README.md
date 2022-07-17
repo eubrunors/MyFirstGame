@@ -22,7 +22,7 @@ Tem como objetivo permitir a vizualição dos conceiitos da matemática de forma
 
 ### LINKS
 
-- Vídeo no Youtube: [](https://www.youtube.com/watch?v=MQZei-ZXx20)
+- Vídeo no Youtube: [https://www.youtube.com/watch?v=MQZei-ZXx20](https://www.youtube.com/watch?v=MQZei-ZXx20)
 - Site do App Game Kit: [https://www.appgamekit.com](https://www.appgamekit.com)
 
 ### LÓGICA DO JOGO

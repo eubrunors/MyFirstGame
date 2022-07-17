@@ -11,6 +11,7 @@
   - [LÓGICA DO JOGO](#LÓGICA-DO-JOGO)
   - [OBJETIVO](#OBJETIVO)
   - [NOTAS FINAIS](#NOTAS-FINAIS)
+-- [Download](#Download)
 
 ## INTRODUÇÃO
 My First Game - Projeto Integrador I da graduação de Ciências do Computação do Intituto Federal de Goiás.

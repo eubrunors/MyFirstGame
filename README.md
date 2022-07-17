@@ -13,9 +13,11 @@
   - [NOTAS FINAIS](#NOTAS-FINAIS)
 
 ## INTRODUÇÃO
-My First Game - Projeto Integrador I da graduação de Ciências do Computação do Intituto Federal de Goiás
+My First Game - Projeto Integrador I da graduação de Ciências do Computação do Intituto Federal de Goiás.
+
 Batalha Espacial é um videogame 2D construído com App Game Kit no Tier 1 (AGK BASIC). 
-Tem como objetivo permitir a vizualição dos conceiitos da matemática de forma aplicada a criação de jogos de computador 
+
+Tem como objetivo permitir a vizualição dos conceiitos da matemática de forma aplicada a criação de jogos de computador.
 
 ## PREVIEW DO GAME
 ![preview-batalha-espacial](https://github.com/eubrunors/MyFirstGame/blob/master/preview_batalha_espacial.gif)

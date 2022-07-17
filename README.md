@@ -28,7 +28,7 @@ Tem como objetivo permitir a vizualição dos conceiitos da matemática de forma
 ### LÓGICA DO JOGO
 
 - A Gameplay referenciada no jogo space invaders
-- Destrua o máximo de de naves inimigas possíveis sem ser atingidas por elas e não deixá-las atingir o limite de tela enquanto elas se movimenta em sentido vertical até o fim da tela 
+- Destrua o máximo de naves inimigas possíveis sem ser atingidas por elas e não deixá-las atingir o limite de tela enquanto elas se movimenta em sentido vertical até o fim da tela 
 - Movimentação da nave do player feita apenas na horizontal 
 
 ### OBJETIVO

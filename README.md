@@ -52,3 +52,5 @@ Logo, destaco por essa experiência o quão recompensador e gratificate foi oper
 
 ## Download
 * [Última Versão](https://github.com/eubrunors/MyFirstGame/archive/master.zip)
+#### obs:
+Necessária plataforma App Game Kit para executar o jogo

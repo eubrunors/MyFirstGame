@@ -48,3 +48,6 @@ Projeto contempla as disciplinas:
 Admiro muito trabalhos práticos pois é uma maneira ativa de aprendizagem.
 Segundo Carl Rogers, psicólogo americano, o aprendizado experimental tem o desenvolvimento pessoal do aprendiz, fazendo parte assim de uma abordagem humanista. Enfatizando a importância do aspecto interacional do aprendizado ( tanto quanto interpessoais e intergrupais ).
 Logo, destaco por essa experiência o quão recompensador e gratificate foi operar esse projeto.
+
+## Download
+* [Latest version](https://github.com/eubrunors/MyFirstGame/archive/master.zip)

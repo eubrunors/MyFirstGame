@@ -33,12 +33,13 @@ Tem como objetivo permitir a vizualição dos conceiitos da matemática de forma
 
 ### OBJETIVO
 
+O projeto formentará para que durante as discipinas o alunos possa desenvolver algoritmos e programas estimulados por aplicações matemática
 Projeto contempla as disciplinas:
 - Contrução de Agoritmos
 - Fundamentos Matemáticos
 - Laboratório de Programação
 - Álgebra Linear 
-O projeto formentará para que durante as discipinas o alunos possa desenvolver algoritmos e programas estimulados por aplicações matemática
+
 
 ### NOTAS FINAIS
 

@@ -3,15 +3,15 @@
 
 ## CONTEÚDOS
 
--- [MyFirstGame - Batalha Espacial](#MyFirstGmae---Batalha-Espacial)
-  - [Conteúdos](#CONTEÚDOS)
-  - [Introdução](#INTRODUÇÃO)
-  - [PREVIEW DO GAME:](#PREVIEW-DO-GAME)
-  - [LINKS](#LINKS)
-  - [LÓGICA DO JOGO](#LÓGICA-DO-JOGO)
-  - [OBJETIVO](#OBJETIVO)
-  - [NOTAS FINAIS](#NOTAS-FINAIS)
--- [Download](#Download)
+- - [MyFirstGame - Batalha Espacial](#MyFirstGmae---Batalha-Espacial)
+    - [Conteúdos](#CONTEÚDOS)
+    - [Introdução](#INTRODUÇÃO)
+    - [PREVIEW DO GAME:](#PREVIEW-DO-GAME)
+    - [LINKS](#LINKS)
+    - [LÓGICA DO JOGO](#LÓGICA-DO-JOGO)
+    - [OBJETIVO](#OBJETIVO)
+    - [NOTAS FINAIS](#NOTAS-FINAIS)
+- - [Download](#Download)
 
 ## INTRODUÇÃO
 My First Game - Projeto Integrador I da graduação de Ciências do Computação do Intituto Federal de Goiás.

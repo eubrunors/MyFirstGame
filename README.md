@@ -51,4 +51,4 @@ Segundo Carl Rogers, psicólogo americano, o aprendizado experimental tem o dese
 Logo, destaco por essa experiência o quão recompensador e gratificate foi operar esse projeto.
 
 ## Download
-* [Latest version](https://github.com/eubrunors/MyFirstGame/archive/master.zip)
+* [Última Versão](https://github.com/eubrunors/MyFirstGame/archive/master.zip)

@@ -1,4 +1,3 @@
-
 MenuPrincipal:
 	if cria_menu = 0
 	
@@ -9,9 +8,6 @@ MenuPrincipal:
 		SetTextSize(3, 45)
 		SetTextPosition(3,(768-GetTextTotalWidth(3))/2 , 740)
 
-		CreateText(4, "Recorde: " + str(Recorde))
-		SetTextSize(4, 40)
-		SetTextPosition(4, 768 - GetTextTotalWidth(4) , 0)
 
 		CreateText(5, "Pressione ESPAÇO para Iniciar")
 		SetTextSize(5, 30)
@@ -38,11 +34,6 @@ MenuPrincipal:
 	Return
 
 
-Pontos:
-	CreateText(1, "Pontos: " + str(Pontos))
-	SetTextSize(1, 40)
-	SetTextPosition(1, 0, 0)
-	Return
 
 /* Esconde os sprites do jogo:
 - esconde naves inimigas

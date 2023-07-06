@@ -1,4 +1,3 @@
-
 LoadSounds:
 	GoSub LoadSoundEffectFiles
 	GoSub LoadMusicFiles

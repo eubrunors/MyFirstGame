@@ -28,31 +28,6 @@ SetOrientationAllowed(1, 1, 1, 1)
 SetSyncRate(60, 0) 
 SetScissor(0, 0, 0, 0) 				
 
-/* struct com principais variaveis  */
-
-Type _Player
-	id as integer		
-	x as float			
-	y as float			
-EndType
-Type _Inimigo
-	id as integer		
-	x as float			
-	y as float			
-	speed as integer	
-EndType
-Type _Lazer	
-	id as integer	
-	x as float			
-	y as float			
-	fired as integer	
-EndType
-Type _Estrela
-	id as integer		
-	width as integer	
-	height as integer	
-EndType
-
 /* inicializar variaveis  */
 pontos = 0				
 recorde = 0			
@@ -61,30 +36,30 @@ cria_menu = 0
 
 GoSub CriaEstrela
 GoSub LoadSprites
-GoSub Pontos
 GoSub LoadSounds
 
 /* Loop Principal */
 do
 	if gameover = 1
 		GoSub MenuPrincipal
-		score = 0
 	endif
-	
-    GoSub PlayerMove
-	GoSub PlayerShoots
-	GoSub InimigoMovimento
-	GoSub MortePlayer
+	GoSub PlayerAction
 	GoSub EstrelaMovimento
+	GoSub PositionPontuacao
+	GoSub Colisao
+    Sync()
+loop
+
+
+PositionPontuacao:
+	SetTextString(1, "Pontos:" + str(pontos))
+	SetTextString(4, "Recorde:" + str(recorde))
+	GoSub LoadRecorde
+Return
 	
-	SetTextString(1, "Pontos: " + str(pontos))
+
+LoadRecorde:
 	if Pontos > Recorde
 		Recorde = Pontos
 	endif
-	
-	SetTextString(4, "Recorde: " + str(recorde))
-	SetTextPosition(4, 768 - GetTextTotalWidth(4) , 0)
-	GoSub Colisao
-	
-    Sync()
-loop
+Return

@@ -1,14 +1,39 @@
 /* 
 Cria os sprites do jogo:
+- struct com principais variaveis
 - carregamento de imagens
 - atribuindo-os a um sprite
 */
+Type _Player
+	id as integer		
+	x as float			
+	y as float			
+EndType
+Type _Inimigo
+	id as integer		
+	x as float			
+	y as float			
+	speed as integer	
+EndType
+Type _Lazer	
+	id as integer	
+	x as float			
+	y as float			
+	fired as integer	
+EndType
+Type _Estrela
+	id as integer		
+	width as integer	
+	height as integer	
+EndType
 
 LoadSprites:
 	GoSub LoadImages
 	GoSub CreatePlayer
 	GoSub CreateLazer
 	GoSub CreateInimigo
+	GoSub Pontos
+	GoSub Recorde
 	Return
 
 LoadImages:
@@ -62,6 +87,16 @@ CreateInimigo:
 	inimigo[3].x = GetSpriteX(inimigo[1].id) + distancia_entre_inimigos 
 	inimigo[3].y = INIMIGO_Y_POSITION
 	SetSpritePosition(inimigo[3].id, inimigo[3].x, inimigo[3].y)
-
 	Return
-
+	
+Pontos:
+	CreateText(1, "Pontos: " + str(Pontos))
+	SetTextSize(1, 35)
+	SetTextPosition(1, 100, 0)
+	Return
+	
+Recorde:
+	CreateText(4, "Recorde: " + str(Recorde))
+	SetTextSize(4, 35)
+	SetTextPosition(4, 650 - GetTextTotalWidth(4) , 0)
+	Return

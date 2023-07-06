@@ -1,4 +1,3 @@
-
 CriaEstrela:
 	dim estrelas[100] as _Estrela
 	CreateImageColor(5, 255, 255, 255, 255)	// CRIA BLOCO BRANCO PRA SER A ESTRELA 
